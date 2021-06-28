@@ -180,8 +180,8 @@ function loadData(system) {
     
     var inputCity = $('#inputCity').val();
     //var accuweatherApiKey = "eOYiiAjNR0EuRaIGNoxAlXQQLn56cQMb"; // Accuweather api key
-    var accuweatherApiKey = "KrnJm3pGAtha40EFim82KLEqvaikzMeS"; // Accuweather api key
-    var flickrApiKey = "8df7b25e698caeac3e6711c1c46140b1"; // Flickr api key
+    //var accuweatherApiKey = "KrnJm3pGAtha40EFim82KLEqvaikzMeS"; // Accuweather api key
+    //var flickrApiKey = "8df7b25e698caeac3e6711c1c46140b1"; // Flickr api key
 
   
     var locationResourceURL = 'https://dataservice.accuweather.com/locations/v1/cities/search?apikey=' + accuweatherApiKey + '&q=' + inputCity;
